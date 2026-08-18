@@ -1,3 +1,7 @@
 # phishing-classifier
-
-'''pip install -e .  ''' to run setup.py
+streamlit
+numpy
+pandas
+joblib
+scikit-learn
+xgboost
