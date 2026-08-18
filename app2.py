@@ -8,7 +8,7 @@ import joblib
 # 1. Load the model from memory cache
 @st.cache_resource
 def load_model():
-    return joblib.load("phishing_pipeline.joblib")
+   return joblib.load("main_model_with_xgb_rf_knn.joblib")
 
 pipeline = load_model()
 
